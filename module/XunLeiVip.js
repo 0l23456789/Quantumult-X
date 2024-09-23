@@ -7,7 +7,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-obj.nickName = "解锁成功！By:🌵🌵🌵";
+obj.nickName = "🌵🌵🌵";
 obj.isAutoDeduct = true;
 obj.vipList = [
     {
