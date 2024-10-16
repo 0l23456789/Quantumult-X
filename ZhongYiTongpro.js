@@ -26,5 +26,6 @@ obj.diff = "2222";
 obj.freegold = "2222";
 obj.memberdays = "2222";
 obj.package = "6";
+obj.isfree = "1";
 
 $done({ body: JSON.stringify(obj) });
