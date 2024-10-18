@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/dlabel\.ctaiot\.com\/api\/config\/list\.json\?mcontext url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/DLabel++++.js
+^https:\/\/dlabel\.ctaiot\.com\/api\/config\/list\.json\?mcontext url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/DLabel+++.js
 
 [mitm]
 hostname = dlabel.ctaiot.com
