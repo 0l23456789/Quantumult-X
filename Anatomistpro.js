@@ -9,7 +9,7 @@
 
 
 [rewrite_local]
-https:\/\/jiepou\.vesal\.cn\/vesal-jiepao-prod url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/Anatomistpro.js
+https:\/\/jiepou\.vesal\.cn\/vesal-jiepao-prod url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/Anatomistpro+.js
 
 [mitm]
 hostname = jiepou.vesal.cn
