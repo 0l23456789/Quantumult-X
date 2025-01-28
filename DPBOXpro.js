@@ -40,7 +40,7 @@ const bundle = {
 
 //识别UA
 const list = {
-  'moss-ios': { name: 'prouser', id: 'dpbox_yearly_68', cm: 'sja' }  //DPBOX-摄影机与电影参数参数查询
+  'moss-ios': { name: 'prouser', id: 'dpbox_yearly_68', cm: 'sja' },  //DPBOX-摄影机与电影参数参数查询
 };
 
 if (typeof $response == "undefined") {
@@ -70,7 +70,7 @@ if (typeof $response == "undefined") {
   if (typeof nameb !== 'undefined' && nameb !== null) {
     AA00.subscriber.entitlements[nameb] = Object.assign({}, data, { product_identifier: idb });
   }
-  const subData = Object.assign({},data,{  "Author": "AA00",  "Telegram": "https://t.me/AA00",  "warning": "DPBOX",  "original_purchase_date": "2023-09-09T09:09:09Z",  "store": "app_store",  "ownership_type": "PURCHASED"  });
+  const subData = Object.assign({},data,{  "Author": "AA00",  "Telegram": "http",  "warning": "DPBOX",  "original_purchase_date": "2023-09-09T09:09:09Z",  "store": "app_store",  "ownership_type": "PURCHASED"  });
   AA00.subscriber.subscriptions[ids] = subData;
   if (typeof idb !== 'undefined' && idb !== null) {
     AA00.subscriber.subscriptions[idb] = subData;
