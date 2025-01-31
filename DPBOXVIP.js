@@ -1,4 +1,4 @@
-\*************************************
+/*************************************
 
 [rewrite_local]
 ^https?:\/\/(api\.(revenuecat|rc-backup)|isi\.csan\.goodnotes)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$|product_entitlement_mapping|offers$) url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/DPBOXVIP.js
